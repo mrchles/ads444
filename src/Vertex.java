@@ -1,16 +1,17 @@
 public class Vertex {
-    private int id;
 
-    public Vertex(int id) {
-        this.id = id;
+    private int value;
+
+    public Vertex(int value) {
+        this.value = value;
     }
 
-    public int getId() {
-        return id;
+    public int getValue() {
+        return value;
     }
 
     @Override
     public String toString() {
-        return String.valueOf(id);
+        return "Vertex" + value;
     }
 }
